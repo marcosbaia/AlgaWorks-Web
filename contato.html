@@ -18,11 +18,12 @@
 
         
         <fieldset><legend><h2>Formulário de contato</h2></legend>
-            <form>
+            <form method="post" id="fContato">
                 <p>Nome <input type="text" name="tNome" id="cNome" size="40" maxlength="40" placeholder="Nome Completo"></p>
                 <p>Telefone <input type="tel" name ="tFone" id="cFone" size="38" maxlength="11" placeholder="(00) 0 0000-0000"></p>
                 <p>Email <input type="email" name="tEmail" id="cEmail" size="40" maxlength="40"></p>
-                <p>Mensagem</p>
+                <p><label for="cMsg">Mensagem</label></p>
+                <p><textarea name="tMsg" id="cMsg" cols="38" rows="7" placeholder="Deixe aqui sua mensagem"></textarea></p>
                 <p>Enviar</p>        
         </fieldset>
 
